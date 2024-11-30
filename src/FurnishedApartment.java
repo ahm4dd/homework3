@@ -1,8 +1,9 @@
 public class FurnishedApartment extends Apartment {
     private int rating;
 
-    FurnishedApartment(double area, int rooms, String neighborhood, double price, int floorNumber, boolean hasParkingLot){
+    FurnishedApartment(double area, int rooms, String neighborhood, double price, int floorNumber, boolean hasParkingLot, int rating){
         super(area,rooms,neighborhood,price,floorNumber,hasParkingLot);
+        this.rating = rating;
     }
 
     public int getRating(){
